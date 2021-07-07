@@ -20,3 +20,4 @@ def printer(attendees)
     batch_badge_creator(attendees).each {|name| puts name}
     assign_rooms(attendees).each {|array| puts array}
 end
+ 
